@@ -2,16 +2,16 @@
 <testng-results retried="2" ignored="0" total="4" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-18T17:32:41 IST" name="Suite" finished-at="2022-03-18T17:34:25 IST" duration-ms="104117">
+  <suite started-at="2022-03-18T19:20:27 IST" name="Suite" finished-at="2022-03-18T19:21:43 IST" duration-ms="76139">
     <groups>
     </groups>
-    <test started-at="2022-03-18T17:32:41 IST" name="Register Account" finished-at="2022-03-18T17:33:39 IST" duration-ms="58587">
+    <test started-at="2022-03-18T19:20:27 IST" name="Register Account" finished-at="2022-03-18T19:21:19 IST" duration-ms="51199">
       <class name="com.hcl.TestCase.CreateAccountTest">
-        <test-method is-config="true" signature="setLog4j()[pri:0, instance:com.hcl.TestCase.CreateAccountTest@403132fc]" started-at="2022-03-18T17:32:41 IST" name="setLog4j" finished-at="2022-03-18T17:32:41 IST" duration-ms="25" status="PASS">
+        <test-method is-config="true" signature="setLog4j()[pri:0, instance:com.hcl.TestCase.CreateAccountTest@403132fc]" started-at="2022-03-18T19:20:27 IST" name="setLog4j" finished-at="2022-03-18T19:20:27 IST" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setLog4j -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.hcl.TestCase.CreateAccountTest@403132fc]" started-at="2022-03-18T17:32:41 IST" name="setUp" finished-at="2022-03-18T17:32:57 IST" duration-ms="16438" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.hcl.TestCase.CreateAccountTest@403132fc]" started-at="2022-03-18T19:20:27 IST" name="setUp" finished-at="2022-03-18T19:20:39 IST" duration-ms="11551" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method retried="true" signature="createaccount(java.util.Hashtable)[pri:1, instance:com.hcl.TestCase.CreateAccountTest@403132fc]" started-at="2022-03-18T17:32:57 IST" name="createaccount" data-provider="dp1" finished-at="2022-03-18T17:33:38 IST" duration-ms="40954" status="SKIP">
+        <test-method retried="true" signature="createaccount(java.util.Hashtable)[pri:1, instance:com.hcl.TestCase.CreateAccountTest@403132fc]" started-at="2022-03-18T19:20:39 IST" name="createaccount" data-provider="dp1" finished-at="2022-03-18T19:21:17 IST" duration-ms="37914" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -37,8 +37,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-NH2OS09M', ip: '192.168.64.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220216172458, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 23684, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d1af198e-8109-4852-8383-fb50583663b1
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220216172458, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 7020, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: defe2581-ddff-4394-8e14-9a1f10bfc4bd
 *** Element info: {Using=xpath, value=//input[@id='customer_firstname']}]]>
             </message>
             <full-stacktrace>
@@ -47,8 +47,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-NH2OS09M', ip: '192.168.64.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.11'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220216172458, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 23684, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d1af198e-8109-4852-8383-fb50583663b1
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220216172458, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 7020, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: defe2581-ddff-4394-8e14-9a1f10bfc4bd
 *** Element info: {Using=xpath, value=//input[@id='customer_firstname']}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -97,7 +97,7 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createaccount -->
-        <test-method retried="true" signature="createaccount(java.util.Hashtable)[pri:1, instance:com.hcl.TestCase.CreateAccountTest@403132fc]" started-at="2022-03-18T17:33:39 IST" name="createaccount" data-provider="dp1" finished-at="2022-03-18T17:33:39 IST" duration-ms="83" status="SKIP">
+        <test-method retried="true" signature="createaccount(java.util.Hashtable)[pri:1, instance:com.hcl.TestCase.CreateAccountTest@403132fc]" started-at="2022-03-18T19:21:17 IST" name="createaccount" data-provider="dp1" finished-at="2022-03-18T19:21:17 IST" duration-ms="82" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -138,7 +138,7 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createaccount -->
-        <test-method signature="createaccount(java.util.Hashtable)[pri:1, instance:com.hcl.TestCase.CreateAccountTest@403132fc]" started-at="2022-03-18T17:33:39 IST" name="createaccount" data-provider="dp1" finished-at="2022-03-18T17:33:39 IST" duration-ms="29" status="FAIL">
+        <test-method signature="createaccount(java.util.Hashtable)[pri:1, instance:com.hcl.TestCase.CreateAccountTest@403132fc]" started-at="2022-03-18T19:21:17 IST" name="createaccount" data-provider="dp1" finished-at="2022-03-18T19:21:17 IST" duration-ms="25" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -179,19 +179,15 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createaccount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hcl.TestCase.CreateAccountTest@403132fc]" started-at="2022-03-18T17:33:39 IST" name="tearDown" finished-at="2022-03-18T17:33:39 IST" duration-ms="777" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hcl.TestCase.CreateAccountTest@403132fc]" started-at="2022-03-18T19:21:17 IST" name="tearDown" finished-at="2022-03-18T19:21:19 IST" duration-ms="1310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.hcl.TestCase.CreateAccountTest -->
     </test> <!-- Register Account -->
-    <test started-at="2022-03-18T17:33:40 IST" name="Login to Account" finished-at="2022-03-18T17:34:25 IST" duration-ms="45288">
+    <test started-at="2022-03-18T19:21:19 IST" name="Login to Account" finished-at="2022-03-18T19:21:43 IST" duration-ms="24559">
       <class name="com.hcl.TestCase.LoginPageTest">
-        <test-method is-config="true" signature="setLog4j()[pri:0, instance:com.hcl.TestCase.LoginPageTest@a77614d]" started-at="2022-03-18T17:33:40 IST" name="setLog4j" finished-at="2022-03-18T17:33:40 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setLog4j -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.hcl.TestCase.LoginPageTest@a77614d]" started-at="2022-03-18T17:33:40 IST" name="setUp" finished-at="2022-03-18T17:33:57 IST" duration-ms="16807" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.hcl.TestCase.LoginPageTest@a77614d]" started-at="2022-03-18T19:21:19 IST" name="setUp" finished-at="2022-03-18T19:21:31 IST" duration-ms="12482" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -202,7 +198,11 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="logintest(java.util.Hashtable)[pri:3, instance:com.hcl.TestCase.LoginPageTest@a77614d]" started-at="2022-03-18T17:33:57 IST" name="logintest" data-provider="dp1" finished-at="2022-03-18T17:34:24 IST" duration-ms="27840" status="PASS">
+        <test-method is-config="true" signature="setLog4j()[pri:0, instance:com.hcl.TestCase.LoginPageTest@a77614d]" started-at="2022-03-18T19:21:19 IST" name="setLog4j" finished-at="2022-03-18T19:21:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setLog4j -->
+        <test-method signature="logintest(java.util.Hashtable)[pri:3, instance:com.hcl.TestCase.LoginPageTest@a77614d]" started-at="2022-03-18T19:21:31 IST" name="logintest" data-provider="dp1" finished-at="2022-03-18T19:21:43 IST" duration-ms="11361" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -213,7 +213,7 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hcl.TestCase.LoginPageTest@a77614d]" started-at="2022-03-18T17:34:24 IST" name="tearDown" finished-at="2022-03-18T17:34:25 IST" duration-ms="606" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hcl.TestCase.LoginPageTest@a77614d]" started-at="2022-03-18T19:21:43 IST" name="tearDown" finished-at="2022-03-18T19:21:43 IST" duration-ms="642" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

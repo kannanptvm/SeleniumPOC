@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 105.167 s <<< FAILURE! - in TestSuite
-com.hcl.TestCase.CreateAccountTest.createaccount[{cmpany=HCL Technologies, date=5-March -2000, Email=kannanpbgr2@gmail.com, pageTitle=My Store, Title=Mr., Password=Kannan@@@1, runmode=Y, alis=my home, state_details=California, zipcode=68585, addr=Sree Madhavam, mob=52555558, firstName=Kannan, cty=Pathanamthitta, lastName=Sharath}](3)  Time elapsed: 0.086 s  <<< FAILURE!
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 77.529 s <<< FAILURE! - in TestSuite
+com.hcl.TestCase.CreateAccountTest.createaccount[{cmpany=HCL Technologies, date=5-March -2000, Email=kannanpbgr2@gmail.com, pageTitle=My Store, Title=Mr., Password=Kannan@@@1, runmode=Y, alis=my home, state_details=California, zipcode=68585, addr=Sree Madhavam, mob=52555558, firstName=Kannan, cty=Pathanamthitta, lastName=Sharath}](3)  Time elapsed: 0.108 s  <<< FAILURE!
 java.lang.AssertionError: Login Page Title is not Matched expected [My Store] but found [Login - My Store]
 	at com.hcl.TestCase.CreateAccountTest.createaccount(CreateAccountTest.java:45)
 
