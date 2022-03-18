@@ -45,7 +45,7 @@ public class LoginPageTest extends TestBase {
 		LoginPage.clickonSign(LoginPageLocators.signbtn_xpath);
 
 		loginPage.LoginInfo(data.get("email"), data.get("passWord"));
-		log.info("Successfully Logged into Application");
+		log.info("Successfully Logged !!!!!!!");
 
 	}
 

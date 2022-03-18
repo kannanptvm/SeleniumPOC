@@ -187,13 +187,28 @@
                   </a> <!-- createaccount({cmpany=HCL Technologies, date=5-March -2000, Email=kannanpbgr2@gmail.com, pageTitle=My Store, Title...) -->
                   <span class="method-name">createaccount</span>
                   <span class="parameters">({cmpany=HCL Technologies, date=5-March -2000, Email=kannanpbgr2@gmail.com, pageTitle=My Store, Title=Mr., Password=Kannan@@@1, runmode=Y, alis=my home, state_details=California, zipcode=68585, addr=Sree Madhavam, mob=52555558, firstName=Kannan, cty=Pathanamthitta, lastName=Sharath})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Login Page Title is not Matched expected [My Store] but found [Login - My Store]
+	at com.hcl.TestCase.CreateAccountTest.createaccount(CreateAccountTest.java:45)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createaccount({cmpany=HCL Technologies, date=5-March -2000, Email=kannanpbgr2@gmail.com, pageTitle=My Store, Title...)">
+                  </a> <!-- createaccount({cmpany=HCL Technologies, date=5-March -2000, Email=kannanpbgr2@gmail.com, pageTitle=My Store, Title...) -->
+                  <span class="method-name">createaccount</span>
+                  <span class="parameters">({cmpany=HCL Technologies, date=5-March -2000, Email=kannanpbgr2@gmail.com, pageTitle=My Store, Title=Mr., Password=Kannan@@@1, runmode=Y, alis=my home, state_details=California, zipcode=68585, addr=Sree Madhavam, mob=52555558, firstName=Kannan, cty=Pathanamthitta, lastName=Sharath})</span>
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id=&apos;customer_firstname&apos;]
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LAPTOP-NH2OS09M&apos;, ip: &apos;192.168.64.70&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220216172458, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 23684, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d1af198e-8109-4852-8383-fb50583663b1
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220216172458, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 7020, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: defe2581-ddff-4394-8e14-9a1f10bfc4bd
 *** Element info: {Using=xpath, value=//input[@id=&apos;customer_firstname&apos;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -217,21 +232,6 @@ Session ID: d1af198e-8109-4852-8383-fb50583663b1
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
 ... Removed 20 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="createaccount({cmpany=HCL Technologies, date=5-March -2000, Email=kannanpbgr2@gmail.com, pageTitle=My Store, Title...)">
-                  </a> <!-- createaccount({cmpany=HCL Technologies, date=5-March -2000, Email=kannanpbgr2@gmail.com, pageTitle=My Store, Title...) -->
-                  <span class="method-name">createaccount</span>
-                  <span class="parameters">({cmpany=HCL Technologies, date=5-March -2000, Email=kannanpbgr2@gmail.com, pageTitle=My Store, Title=Mr., Password=Kannan@@@1, runmode=Y, alis=my home, state_details=California, zipcode=68585, addr=Sree Madhavam, mob=52555558, firstName=Kannan, cty=Pathanamthitta, lastName=Sharath})</span>
-                  <div class="stack-trace">java.lang.AssertionError: Login Page Title is not Matched expected [My Store] but found [Login - My Store]
-	at com.hcl.TestCase.CreateAccountTest.createaccount(CreateAccountTest.java:45)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 17 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -323,24 +323,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'createaccount')
 data.setCell(0, 2, 'com.hcl.TestCase.CreateAccountTest')
-data.setCell(0, 3, 40954);
+data.setCell(0, 3, 37914);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'logintest')
 data.setCell(1, 2, 'com.hcl.TestCase.LoginPageTest')
-data.setCell(1, 3, 27840);
+data.setCell(1, 3, 11361);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'createaccount')
 data.setCell(2, 2, 'com.hcl.TestCase.CreateAccountTest')
-data.setCell(2, 3, 83);
+data.setCell(2, 3, 82);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'createaccount')
 data.setCell(3, 2, 'com.hcl.TestCase.CreateAccountTest')
-data.setCell(3, 3, 29);
+data.setCell(3, 3, 25);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 49 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -373,44 +373,44 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(firefox)</span>
-                <span class="method-start">36 ms</span>
+                <span class="method-start">41 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">createaccount({cmpany=HCL Technologies, date=5-March -2000, Email=kannanpbgr2@gmail.com, pageTitle=My Store, Title...)</span>
-                <span class="method-start">16546 ms</span>
+                <span class="method-start">11659 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">createaccount({cmpany=HCL Technologies, date=5-March -2000, Email=kannanpbgr2@gmail.com, pageTitle=My Store, Title...)</span>
-                <span class="method-start">57605 ms</span>
+                <span class="method-start">49657 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">createaccount({cmpany=HCL Technologies, date=5-March -2000, Email=kannanpbgr2@gmail.com, pageTitle=My Store, Title...)</span>
-                <span class="method-start">57721 ms</span>
+                <span class="method-start">49781 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">57807 ms</span>
+                <span class="method-start">49889 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.hcl.TestCase.LoginPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setLog4j</span>
-                <span class="method-start">58827 ms</span>
-              </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">setUp(chrome)</span>
-                <span class="method-start">58829 ms</span>
+                <span class="method-start">51580 ms</span>
               </div> <!-- configuration-class before -->
+              <div class="configuration-test before">
+                <span class="method-name">setLog4j</span>
+                <span class="method-start">51580 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">logintest({passWord=Kannan@@@1, email=kannan8@gmail.com, pageTitle=My Store, runmode=Y})</span>
-                <span class="method-start">75669 ms</span>
+                <span class="method-start">64134 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">103509 ms</span>
+                <span class="method-start">75495 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
