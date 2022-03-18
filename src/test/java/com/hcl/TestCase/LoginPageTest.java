@@ -46,6 +46,7 @@ public class LoginPageTest extends TestBase {
 
 		loginPage.LoginInfo(data.get("email"), data.get("passWord"));
 		log.info("Successfully Logged !!!!!!!");
+		log.info("Test GIt summary ");
 
 	}
 
