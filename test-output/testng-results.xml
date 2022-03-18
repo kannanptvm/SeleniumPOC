@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-18T11:49:07 IST" name="Suite" finished-at="2022-03-18T11:50:23 IST" duration-ms="75498">
+    <groups>
+    </groups>
+    <test started-at="2022-03-18T11:49:07 IST" name="Register Account" finished-at="2022-03-18T11:49:58 IST" duration-ms="50266">
+      <class name="com.hcl.TestCase.CreateAccountTest">
+        <test-method is-config="true" signature="setLog4j()[pri:0, instance:com.hcl.TestCase.CreateAccountTest@1133ec6e]" started-at="2022-03-18T11:49:07 IST" name="setLog4j" finished-at="2022-03-18T11:49:07 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setLog4j -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.hcl.TestCase.CreateAccountTest@1133ec6e]" started-at="2022-03-18T11:49:07 IST" name="setUp" finished-at="2022-03-18T11:49:19 IST" duration-ms="11693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createaccount(java.util.Hashtable)[pri:1, instance:com.hcl.TestCase.CreateAccountTest@1133ec6e]" started-at="2022-03-18T11:49:19 IST" name="createaccount" data-provider="dp1" finished-at="2022-03-18T11:49:57 IST" duration-ms="37727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cmpany=HCL Technologies, date=5-March -2000, Email=kannanpbgr2@gmail.com, pageTitle=My Store, Title=Mr., Password=Kannan@@@1, runmode=Y, alis=my home, state_details=California, zipcode=68585, addr=Sree Madhavam, mob=52555558, firstName=Kannan, cty=Pathanamthitta, lastName=Sharath}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createaccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hcl.TestCase.CreateAccountTest@1133ec6e]" started-at="2022-03-18T11:49:57 IST" name="tearDown" finished-at="2022-03-18T11:49:58 IST" duration-ms="748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hcl.TestCase.CreateAccountTest -->
+    </test> <!-- Register Account -->
+    <test started-at="2022-03-18T11:49:58 IST" name="Login to Account" finished-at="2022-03-18T11:50:23 IST" duration-ms="24936">
+      <class name="com.hcl.TestCase.LoginPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.hcl.TestCase.LoginPageTest@6928f576]" started-at="2022-03-18T11:49:58 IST" name="setUp" finished-at="2022-03-18T11:50:09 IST" duration-ms="11359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setLog4j()[pri:0, instance:com.hcl.TestCase.LoginPageTest@6928f576]" started-at="2022-03-18T11:49:58 IST" name="setLog4j" finished-at="2022-03-18T11:49:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setLog4j -->
+        <test-method signature="logintest(java.util.Hashtable)[pri:3, instance:com.hcl.TestCase.LoginPageTest@6928f576]" started-at="2022-03-18T11:50:09 IST" name="logintest" data-provider="dp1" finished-at="2022-03-18T11:50:22 IST" duration-ms="12847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{passWord=Kannan@@@1, email=kannan8@gmail.com, pageTitle=My Store, runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hcl.TestCase.LoginPageTest@6928f576]" started-at="2022-03-18T11:50:22 IST" name="tearDown" finished-at="2022-03-18T11:50:23 IST" duration-ms="709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hcl.TestCase.LoginPageTest -->
+    </test> <!-- Login to Account -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="105.167" tests="4" errors="0" skipped="2" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="C:\WINDOWS\system32\config\systemprofile\.cache\selenium\chromedriver\win32\99.0.4844.51\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\HCL\Automation\SeleniumProjectPOC\target\test-classes;D:\HCL\Automation\SeleniumProjectPOC\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\4.1.7\extentreports-4.1.7.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\dom4j\dom4j\2.1.1\dom4j-2.1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\mysql\mysql-connector-java\8.0.25\mysql-connector-java-8.0.25.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\inject\guice\5.0.1\guice-5.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.3\webdrivermanager-5.0.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java\3.2.12\docker-java-3.2.12.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-core\3.2.12\docker-java-core-3.2.12.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-api\3.2.12\docker-java-api-3.2.12.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.12\docker-java-transport-httpclient5-3.2.12.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-transport\3.2.12\docker-java-transport-3.2.12.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire14247858049810637929\surefirebooter256944627809347568.jar C:\Windows\Temp\surefire14247858049810637929 2022-03-18T17-32-39_608-jvmRun1 surefire6312779818479357633tmp surefire_015262280749172832004tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\HCL\Automation\SeleniumProjectPOC\target\test-classes;D:\HCL\Automation\SeleniumProjectPOC\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\4.1.7\extentreports-4.1.7.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\dom4j\dom4j\2.1.1\dom4j-2.1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\mysql\mysql-connector-java\8.0.25\mysql-connector-java-8.0.25.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\inject\guice\5.0.1\guice-5.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.3\webdrivermanager-5.0.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java\3.2.12\docker-java-3.2.12.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-core\3.2.12\docker-java-core-3.2.12.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-api\3.2.12\docker-java-api-3.2.12.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.12\docker-java-transport-httpclient5-3.2.12.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-transport\3.2.12\docker-java-transport-3.2.12.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\HCL\Automation\SeleniumProjectPOC"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="current_date" value="_18032022_173340"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire14247858049810637929\surefirebooter256944627809347568.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
+    <property name="user.name" value="LAPTOP-NH2OS09M$"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\WINDOWS\system32\config\systemprofile\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="D:\HCL\Automation\SeleniumProjectPOC"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="C:\WINDOWS\system32\config\systemprofile\.cache\selenium\geckodriver\win64\0.30.0\geckodriver.exe"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven_Home/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="createaccount[{cmpany=HCL Technologies, date=5-March -2000, Email=kannanpbgr2@gmail.com, pageTitle=My Store, Title=Mr., Password=Kannan@@@1, runmode=Y, alis=my home, state_details=California, zipcode=68585, addr=Sree Madhavam, mob=52555558, firstName=Kannan, cty=Pathanamthitta, lastName=Sharath}](1)" classname="com.hcl.TestCase.CreateAccountTest" time="0">
+    <skipped message="Unable to locate element: //input[@id=&apos;customer_firstname&apos;]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-NH2OS09M&apos;, ip: &apos;192.168.64.70&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.11&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 97.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220216172458, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 23684, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: d1af198e-8109-4852-8383-fb50583663b1&#10;*** Element info: {Using=xpath, value=//input[@id=&apos;customer_firstname&apos;]}"/>
+    <system-out><![CDATA[2022-03-18 17:32:41INFO  CreateAccountTest 80 - Config properties loaded !!!
+2022-03-18 17:32:41INFO  CreateAccountTest 94 - OR properties loaded !!!
+2022-03-18 17:32:46INFO  CreateAccountTest 121 - Launching FireFox !!!
+Before navigating to: 'http://automationpractice.com/index.php'
+Navigated to:'http://automationpractice.com/index.php'
+2022-03-18 17:32:57INFO  CreateAccountTest 153 - Navigated to : http://automationpractice.com/index.php
+2022-03-18 17:32:58INFO  CreateAccountTest 46 - Login Page Title Verified
+Trying to Find Element By : By.xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a
+Found Element By : By.xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a
+Trying to Click On: [[FirefoxDriver: firefox on WINDOWS (d1af198e-8109-4852-8383-fb50583663b1)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a]
+Clicked On: [[FirefoxDriver: firefox on WINDOWS (d1af198e-8109-4852-8383-fb50583663b1)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a]
+Trying to Find Element By : By.xpath: //*[@id='email_create']
+Found Element By : By.xpath: //*[@id='email_create']
+Trying to Find Element By : By.xpath: //*[@id='SubmitCreate']/span
+Found Element By : By.xpath: //*[@id='SubmitCreate']/span
+Trying to Click On: [[FirefoxDriver: firefox on WINDOWS (d1af198e-8109-4852-8383-fb50583663b1)] -> xpath: //*[@id='SubmitCreate']/span]
+Clicked On: [[FirefoxDriver: firefox on WINDOWS (d1af198e-8109-4852-8383-fb50583663b1)] -> xpath: //*[@id='SubmitCreate']/span]
+Trying to Find Element By : By.xpath: //*[@id="create_account_error"]
+Found Element By : By.xpath: //*[@id="create_account_error"]
+Trying to Find Element By : By.xpath: //div[@class='radio-inline']/label
+Found Element By : By.xpath: //div[@class='radio-inline']/label
+Trying to Find Element By : By.xpath: //input[@id='customer_firstname']
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1647604962768	geckodriver	INFO	Listening on 127.0.0.1:26421
+1647604963395	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofileb4F4Ul"
+1647604963866	Marionette	INFO	Marionette enabled
+[GFX1-]: RcANGLE(no compositor window)
+[GFX1-]: Failed to connect WebRenderBridgeChild.
+[GFX1-]: Fallback WR to SW-WR + D3D11
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
+[GFX1-]: Failed to initialize CompositorD3D11 for SWGL: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Windows\\Temp\\rust_mozprofileb4F4Ul\\search.json.mozlz4", (void 0)))
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
+[GFX1-]: Failed to initialize CompositorD3D11 for SWGL: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+1647604965716	Marionette	INFO	Listening on port 64783
+1647604966043	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Mar 18, 2022 5:32:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://automationpractice.com"
+]]></system-err>
+  </testcase>
+  <testcase name="createaccount[{cmpany=HCL Technologies, date=5-March -2000, Email=kannanpbgr2@gmail.com, pageTitle=My Store, Title=Mr., Password=Kannan@@@1, runmode=Y, alis=my home, state_details=California, zipcode=68585, addr=Sree Madhavam, mob=52555558, firstName=Kannan, cty=Pathanamthitta, lastName=Sharath}](2)" classname="com.hcl.TestCase.CreateAccountTest" time="0">
+    <skipped message="Login Page Title is not Matched expected [My Store] but found [Login - My Store]"/>
+  </testcase>
+  <testcase name="createaccount[{cmpany=HCL Technologies, date=5-March -2000, Email=kannanpbgr2@gmail.com, pageTitle=My Store, Title=Mr., Password=Kannan@@@1, runmode=Y, alis=my home, state_details=California, zipcode=68585, addr=Sree Madhavam, mob=52555558, firstName=Kannan, cty=Pathanamthitta, lastName=Sharath}](3)" classname="com.hcl.TestCase.CreateAccountTest" time="0.086">
+    <failure message="Login Page Title is not Matched expected [My Store] but found [Login - My Store]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Login Page Title is not Matched expected [My Store] but found [Login - My Store]
+	at com.hcl.TestCase.CreateAccountTest.createaccount(CreateAccountTest.java:45)
+]]></failure>
+  </testcase>
+  <testcase name="logintest[{passWord=Kannan@@@1, email=kannan8@gmail.com, pageTitle=My Store, runmode=Y}](1)" classname="com.hcl.TestCase.LoginPageTest" time="27.826">
+    <system-out><![CDATA[2022-03-18 17:33:39INFO  CreateAccountTest 172 - Browser Terminated
+2022-03-18 17:33:39INFO  CreateAccountTest 173 - -----------------------------------------------
+2022-03-18 17:33:40DEBUG cache 44 - Couldn't find template in cache for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/spark.spa_en_IN.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+2022-03-18 17:33:40DEBUG cache 44 - Loading template for "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.1.7/extentreports-4.1.7.jar!/com/aventstack/extentreports/view/spark/spark.spa.ftl"
+2022-03-18 17:33:40DEBUG cache 44 - Couldn't find template in cache for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("commons/commons-variables_en_IN.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2022-03-18 17:33:40DEBUG cache 44 - Loading template for "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.1.7/extentreports-4.1.7.jar!/com/aventstack/extentreports/view/commons/commons-variables.ftl"
+2022-03-18 17:33:40DEBUG cache 44 - Couldn't find template in cache for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("commons/commons-macros_en_IN.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+2022-03-18 17:33:40DEBUG cache 44 - Loading template for "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.1.7/extentreports-4.1.7.jar!/com/aventstack/extentreports/view/commons/commons-macros.ftl"
+2022-03-18 17:33:40DEBUG cache 44 - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/macros/attributes_en_IN.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+2022-03-18 17:33:40DEBUG cache 44 - Loading template for "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.1.7/extentreports-4.1.7.jar!/com/aventstack/extentreports/view/spark/macros/attributes.ftl"
+2022-03-18 17:33:40DEBUG cache 44 - Couldn't find template in cache for "spark/macros/log.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/macros/log_en_IN.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+2022-03-18 17:33:40DEBUG cache 44 - Loading template for "spark/macros/log.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.1.7/extentreports-4.1.7.jar!/com/aventstack/extentreports/view/spark/macros/log.ftl"
+2022-03-18 17:33:40DEBUG cache 44 - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_IN.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+2022-03-18 17:33:40DEBUG cache 44 - Loading template for "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.1.7/extentreports-4.1.7.jar!/com/aventstack/extentreports/view/spark/macros/recurse_nodes.ftl"
+2022-03-18 17:33:40DEBUG cache 44 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-03-18 17:33:40DEBUG cache 44 - Couldn't find template in cache for "spark/partials/head.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/partials/head_en_IN.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2022-03-18 17:33:40DEBUG cache 44 - Loading template for "spark/partials/head.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.1.7/extentreports-4.1.7.jar!/com/aventstack/extentreports/view/spark/partials/head.ftl"
+2022-03-18 17:33:40DEBUG cache 44 - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_IN.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2022-03-18 17:33:40DEBUG cache 44 - Loading template for "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.1.7/extentreports-4.1.7.jar!/com/aventstack/extentreports/view/commons/commons-inject-css.ftl"
+2022-03-18 17:33:40DEBUG cache 44 - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/partials/navbar_en_IN.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2022-03-18 17:33:40DEBUG cache 44 - Loading template for "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.1.7/extentreports-4.1.7.jar!/com/aventstack/extentreports/view/spark/partials/navbar.ftl"
+2022-03-18 17:33:40DEBUG cache 44 - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_IN.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2022-03-18 17:33:40DEBUG cache 44 - Loading template for "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.1.7/extentreports-4.1.7.jar!/com/aventstack/extentreports/view/spark/partials/sidenav.ftl"
+2022-03-18 17:33:40DEBUG cache 44 - Couldn't find template in cache for "spark/partials/test.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/partials/test_en_IN.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+2022-03-18 17:33:40DEBUG cache 44 - Loading template for "spark/partials/test.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.1.7/extentreports-4.1.7.jar!/com/aventstack/extentreports/view/spark/partials/test.ftl"
+2022-03-18 17:33:40DEBUG cache 44 - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_IN.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+2022-03-18 17:33:40DEBUG cache 44 - Loading template for "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.1.7/extentreports-4.1.7.jar!/com/aventstack/extentreports/view/spark/partials/standard-content.ftl"
+2022-03-18 17:33:40DEBUG cache 44 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-03-18 17:33:40DEBUG cache 44 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-03-18 17:33:40DEBUG cache 44 - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_IN.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+2022-03-18 17:33:40DEBUG cache 44 - Loading template for "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.1.7/extentreports-4.1.7.jar!/com/aventstack/extentreports/view/spark/partials/dashboard.ftl"
+2022-03-18 17:33:40DEBUG cache 44 - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/partials/scripts_en_IN.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2022-03-18 17:33:40DEBUG cache 44 - Loading template for "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.1.7/extentreports-4.1.7.jar!/com/aventstack/extentreports/view/spark/partials/scripts.ftl"
+2022-03-18 17:33:40DEBUG cache 44 - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_IN.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+2022-03-18 17:33:40DEBUG cache 44 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2022-03-18 17:33:40DEBUG cache 44 - Loading template for "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Windows/system32/config/systemprofile/.m2/repository/com/aventstack/extentreports/4.1.7/extentreports-4.1.7.jar!/com/aventstack/extentreports/view/commons/commons-inject-js.ftl"
+2022-03-18 17:33:40INFO  LoginPageTest 80 - Config properties loaded !!!
+2022-03-18 17:33:40INFO  LoginPageTest 94 - OR properties loaded !!!
+2022-03-18 17:33:42INFO  LoginPageTest 113 - Launching Chrome !!!
+Before navigating to: 'http://automationpractice.com/index.php'
+Navigated to:'http://automationpractice.com/index.php'
+2022-03-18 17:33:57INFO  LoginPageTest 153 - Navigated to : http://automationpractice.com/index.php
+2022-03-18 17:33:57INFO  LoginPageTest 43 - Login Page Title Verified
+Trying to Find Element By : By.xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a
+Found Element By : By.xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a
+Trying to Click On: [[ChromeDriver: chrome on WINDOWS (af5e5687cdeec101c937a12ee9814659)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a]
+Clicked On: [[ChromeDriver: chrome on WINDOWS (af5e5687cdeec101c937a12ee9814659)] -> xpath: //*[@id="header"]/div[2]/div/div/nav/div[1]/a]
+Trying to Find Element By : By.xpath: //*[@id='email']
+Found Element By : By.xpath: //*[@id='email']
+Trying to Find Element By : By.xpath: //*[@id='passwd']
+Found Element By : By.xpath: //*[@id='passwd']
+Trying to Find Element By : By.xpath: //*[@id='SubmitLogin']
+Found Element By : By.xpath: //*[@id='SubmitLogin']
+2022-03-18 17:34:24INFO  LoginPageTest 48 - Successfully Logged into Application
+]]></system-out>
+    <system-err><![CDATA[1647605019237	Marionette	INFO	Stopped listening on port 64783
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 47197
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 18, 2022 5:33:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

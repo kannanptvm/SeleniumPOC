@@ -1,0 +1,6 @@
+2022-03-18 11:39:47 INFO  CreateAccountTest:80 - Config properties loaded !!!
+  2022-03-18 11:39:47 INFO  CreateAccountTest:94 - OR properties loaded !!!
+  2022-03-18 11:39:51 INFO  CreateAccountTest:121 - Launching FireFox !!!
+  2022-03-18 11:40:00 INFO  CreateAccountTest:153 - Navigated to : http://automationpractice.com/index.php
+  2022-03-18 11:40:05 INFO  CreateAccountTest:60 - Login Page Title Verified
+  
